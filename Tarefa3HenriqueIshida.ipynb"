@@ -1,0 +1,84 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMER1AZgBXULr5iJhH0lrcF",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/henriqueishida/BasesComputacionais/blob/master/Tarefa3HenriqueIshida.ipynb%22\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "NXZLHrwsQU_5"
+      },
+      "outputs": [],
+      "source": [
+        "Henrique Ishida\n",
+        "Este notebook é referente a tarefa número 3 da matéria de Bases Computacionais da Ciência da UFABC."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "h = 24\n",
+        "s = h * 60 * 60\n"
+      ],
+      "metadata": {
+        "id": "m6v5KcQAQnbl"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "ex1 = 60 * 90\n",
+        "ex2 = (int(h / 2) * 60 * 60)\n",
+        "ex3 = s\n",
+        "print(f\"Exercício 1) {ex1} segundos em uma hora e meia.\")\n",
+        "print(f\"Exercício 2) {ex2} segundos em 12 horas.\")\n",
+        "print(f\"Exercício 3) {ex3} segundos em 24 horas.\")"
+      ],
+      "metadata": {
+        "id": "CrgRyPxfReFU",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "ce009d3b-f1a8-4ae4-c88d-dc7d1f9316e9"
+      },
+      "execution_count": 17,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Exercício 1) 5400 segundos em uma hora e meia.\n",
+            "Exercício 2) 43200 segundos em 12 horas.\n",
+            "Exercício 3) 86400 segundos em 24 horas.\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
